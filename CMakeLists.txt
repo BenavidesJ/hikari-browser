@@ -16,6 +16,8 @@ add_executable(
     app/main.cpp
     browser/Browser.cpp
     net/URL.cpp
+    net/TCPSocket.cpp
+    net/platform/SocketPlatform.cpp
 )
 
 target_include_directories(
